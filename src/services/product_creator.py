@@ -1,8 +1,6 @@
-from itertools import product
-
 from src.http_types.http_request import HttpRequest
 from src.http_types.http_resposnse import HttpResponse
-from src.models.repository.interfaces.redis_repository_interface import RedisRepositoryInterface
+from src.models.redis.repository.interfaces import RedisRepositoryInterface
 from src.models.sqlite.repository.interfaces.products_repository import ProductRepositoryInterface
 
 
